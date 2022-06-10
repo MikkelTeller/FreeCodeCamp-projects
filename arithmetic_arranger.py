@@ -92,5 +92,3 @@ def arithmetic_arranger(problems, answers = False):
         return(line1.rstrip() + "\n" + line2.rstrip() + "\n" + line3.rstrip() + "\n" + line4.rstrip())
     else:
         return("Error: The secund input must be either 'True' or 'False'.")
-    
-print(arithmetic_arranger(["2182+2","443- 54", "22 + 233"], "false"))
