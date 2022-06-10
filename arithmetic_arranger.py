@@ -44,15 +44,12 @@ def arithmetic_arranger(problems, answers = False):
 
         num = num + 1
 
-#Tester om tallene kun indeholder cifre
-
     for object in lst:
         if object.question1.isnumeric() and object.question1.isnumeric():
             continue
         else:
             return("Error: Numbers must only contain digits.")
 
-#Tester om tallene maks er 4 cifre lange
     for object in lst:
         if len(object.question1) <= 4 and len(object.question2) <= 4:
             continue
