@@ -82,7 +82,6 @@ def arithmetic_arranger(problems, answers = False):
                 line4 = line4 + " "
             line4 = line4 + object.answer + "    "
 
-
     if answers == False:
         return(line1.rstrip() + "\n" + line2.rstrip() + "\n" + line3.rstrip())
     elif answers == True:
